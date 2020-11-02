@@ -17,12 +17,163 @@
         padding:3px;
     }
     /*----------------new styles addition-----------------------*/
-    /*------------drop shadow for boxes and images------------------------------*/
+    .alignment{
+      margin-top: 8.5rem;
+      text-align: center;
+
+
+    }
+    .heading_img{
+
+      border-radius: 50%;
+      border-color: white;
+      border-width: 3px;
+      border-style: solid;
+       width: 200px;
+       height: 200px
+
+    }
+    .my_hr{
+
+      margin-bottom: -100px;
+      background-color: white;
+      height: 1px;
+    }
+
+
+    /*hr styles
+    hr.style18 {
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+  }
+  hr.style18:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+  }
+*/
+/*
+hr {
+  border: 0 solid #eeedef;
+  border-top-width: 1px;
+  height: 0;
+  margin: 60px auto;
+  clear: both;
+  display: block;
+  width: 400px;
+  position: relative;
+}
+hr:before {
+  content: " ";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  background-color: #999;
+}
+hr:before {
+  left: 0;
+  bottom: -3px;
+box-shadow: 400px 0 0 -1px #999, 400px 0 0 0 #aaa;
+}
+hr:after {
+  content:url("animations/programming.png.jpg");
+  display:block;
+  position:absolute;
+  left:50%;
+  height:50px;
+  width:50px;
+  margin:-25px 0 0 -25px;
+  border-radius:50px;
+  overflow:hidden;
+  box-shadow: 0 0 0 1px #eef, 0 0 5px;
+}
+
+hr {transform:scale(2)}
+*/
+/*-------------------------------------buttons styles--------------------------------------------------*/
+.glow_on_hover a{
+   color: white;
+   text-decoration: none;
+   font-size: 16px;
+}
+.glow_on_hover {
+
+
+    width: 200px;
+    height: 50px;
+    border: none;
+/**/    margin: 7px 3px; cursor: pointer; padding: 8px 20px;
+    outline: none;
+   color: #fff;
+ background: #111;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow_on_hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow_on_hover:active {
+    color: #000
+}
+
+.glow_on_hover:active:after {
+    background: transparent;
+}
+
+.glow_on_hover:hover:before {
+    opacity: 1;
+}
+
+.glow_on_hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/*------------drop shadow for boxes and images------------------------------*/
     .imagedropshadow {
         padding: 5px;
         border: solid 1px #EFEFEF;
     }
-    img:hover {
+    .special_effect:hover {
         border: solid 1px #CCC;
         -moz-box-shadow: 1px 1px 5px #999;
         -webkit-box-shadow: 1px 1px 5px #999;
