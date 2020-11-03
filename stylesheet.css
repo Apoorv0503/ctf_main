@@ -19,14 +19,10 @@
     /*----------------new styles addition-----------------------*/
   /*----------------winners img card-----------------------*/
     .adjust{
-      width:65%;
+      width:70%;
 
     }
     .adjust2{
-     
-      margin-left: 20px;
-        margin-top: 20px;
-      margin-right: 20px;
       border-style: solid;
       border-color: white;
       border-width: 3px;
