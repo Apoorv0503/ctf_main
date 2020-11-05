@@ -245,15 +245,52 @@ hr {transform:scale(2)}
 
     /*----------*/
 
-    .logo .firstimg
+   /*-------------------------------------------------logo's setting------------------------------------------------*/
+      /*------ye css change kro bhai tbhi natak hua tha!!----*/
+/*    @media screen and (max-width: 600px)
+.logo .secondimg {
+     width: 20vw;
+     height: 13vh;
+    position: relative;
+    left: 47vw;
+}
+}
+@media screen and (max-width: 600px)
+.logo .firstimg {
+    width: 30vw;
+     height: 12vh;
+    position: relative;
+    left: -7vw;
+}
+*/
+
+/*-----------ye hmne ki h abhi..isse only desktop me round aa rhi img..mobile me natak h-------------------*/
+  /*-  .logo .firstimg
     {
-      width: 8vw;
-      height: 13vh;
+      width: 30%;
+      height:30%;
+      border-radius: 50%;
+      border-style: none;
+
     }.logo .secondimg
     {
-      width: 6vw;
-      height: 13vh;
-    }
+      width: 20%;
+      height:20%;
+      border-radius: 50%;
+      border-style: none;
+
+    }                 --*/
+/*ye tmhari css h*/
+    .logo .firstimg
+       {
+         width: 8vw;
+         height: 13vh;
+       }.logo .secondimg
+       {
+         width: 6vw;
+         height: 13vh;
+       }
+
 
 /*----------------apoorv new styles addition-----------------------*/
 .benefit_ctf{
@@ -281,7 +318,7 @@ hr {transform:scale(2)}
   margin:0;
 }
 .wholepage{
-  background-image: url("mtrx_final.jpg");
+  background-image: url("backgrund_body_final-compressed.jpg");
 
 }
 /*---------------------------------------------------------------------------------------------------*/
