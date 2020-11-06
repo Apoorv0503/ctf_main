@@ -276,9 +276,13 @@ hr {transform:scale(2)}
 
 
 /*----------------apoorv new styles addition-----------------------*/
-.benefit_ctf{
+#benefit_ctf{
   text-decoration:none;
   color: black;
+}
+
+#benefit_ctf:hover{
+  color: grey;
 }
 
 .copyright{
@@ -616,7 +620,7 @@ hr {transform:scale(2)}
 #a_faq{
   color: white;
 }
-a:hover{
+#a_faq:hover{
      color: white;
     text-decoration: none;
 }
