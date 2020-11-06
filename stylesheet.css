@@ -612,16 +612,24 @@ hr {transform:scale(2)}
   margin-bottom: 20px;
 }
 
-#faq #faq-list a.collapse {
+
+#a_faq{
   color: white;
 }
-
+a:hover{
+     color: white;
+    text-decoration: none;
+}
 #faq #faq-list a.collapsed {
   color: white;
+    text-decoration: none;
 }
 
 #faq #faq-list a.collapsed i::before {
   content: "\f055" !important;
+    text-decoration: none;
+      color: white;
+
 }
 .faq_white{
   color: white;
